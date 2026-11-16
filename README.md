@@ -2,7 +2,7 @@
 
 Aplicación web para un negocio de comidas: backend **FastAPI + SQLModel** y frontend **React + TypeScript**.
 
-- Repositorio: https://github.com/lucasgragera/Food-Store-TPI-Programaci-n-IV
+- Repositorio: https://github.com/lucasgragera/Food-Store-TPI-Programacion-IV
 - Video de demostración: https://www.youtube.com/watch?v=421gu8tqtv8
 
 ## Estructura
