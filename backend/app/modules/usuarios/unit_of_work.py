@@ -1,0 +1,9 @@
+from sqlmodel import Session
+
+from app.core.unit_of_work import UnitOfWork
+from app.modules.usuarios.repository import UsuarioRepository
+
+
+class UsuarioUnitOfWork(UnitOfWork):
+    def _init_repositories(self, session: Session) -> None:
+        self.usuarios = UsuarioRepository(session)
